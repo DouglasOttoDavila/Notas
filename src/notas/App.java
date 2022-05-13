@@ -24,6 +24,7 @@ public class App {
             
             switch (opcao) {
                 case 1:
+                    com.limparTela();
                     System.out.println("Informe o nome do aluno:");
                     scan.nextLine();
                     nome = scan.nextLine();
@@ -33,11 +34,12 @@ public class App {
                     break;
 
                 case 2:
+                    com.limparTela();
                     System.out.println("Escolha o aluno:");
                     stud.retornaNomes();
                     System.out.println("Digite o número do aluno.");
                     aluId = scan.nextInt();
-                    System.out.println("Informe o trimestre.");
+                    System.out.println("\nInforme o trimestre.");
                     trimestre = scan.nextInt();
                     System.out.println("Informe a nota do " + trimestre + "º trimestre.");
                     float nota = scan.nextFloat();
@@ -47,6 +49,7 @@ public class App {
                     break;
 
                 case 3:
+                    com.limparTela();
                     System.out.println("Escolha o aluno:");
                     stud.retornaNomes();
                     System.out.println("\nDigite o número do aluno.");

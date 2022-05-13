@@ -80,14 +80,16 @@ public class Student {
             nota3 = 0;
         }
 
-        notaFinal = ((nota1/100f)*3) + ((nota2/100f)*3.5f)  + ((nota3/100f)*3.5f);
-        this.notaFinal[aluId][0] = notaFinal;
+        notaFinal = ((nota1*3.0f)/100) + ((nota2*3.5f)/100)  + ((nota3*3.5f)/100);
+        this.notaFinal[aluId][0] = notaFinal*10;
+
+        notaFinal = this.notaFinal[aluId][0];
 
         return notaFinal;
     }
 
     public void checarResultado(int aluId){
-        if (this.notaFinal[aluId][0] < 60f) {
+        if (this.notaFinal[aluId][0] < 6f) {
             System.out.println("O aluno está reprovado!");
         } else {
             System.out.println("O aluno está aprovado!");
