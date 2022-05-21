@@ -1,18 +1,12 @@
-## Getting Started
+## Atividade de Programação Orientada a Objeto (POO)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- UniRitter
+- Professor Victor
 
-## Folder Structure
+## (1,5) Fazer um programa para ler o nome de um aluno e as três notas que ele obteve nos três trimestres do ano.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Primeiro trimestre vale 30, o segundo e o terceiro valem 35 cada.
+- Ao final, mostrar qual a nota final do aluno no ano.
+- Dizer também se o aluno está aprovado (PASS) ou não (FAILED).
+- Em caso negativo, quantos pontos faltam para o aluno obter o mínimo para ser aprovado (que 60% das notas).
+- Você deve criar uma classe Studant para resolver este problema.
