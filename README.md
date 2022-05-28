@@ -1,7 +1,7 @@
 ## Atividade de Programação Orientada a Objeto (POO)
 
 - UniRitter
-- Professor Victor
+- Professor Vitor
 
 ## (1,5) Fazer um programa para ler o nome de um aluno e as três notas que ele obteve nos três trimestres do ano.
 
